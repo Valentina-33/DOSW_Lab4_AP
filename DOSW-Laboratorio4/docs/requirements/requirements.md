@@ -112,15 +112,23 @@ Seleccionamos el requerimiento funcional que consiste en el registro de credenci
 
 Construimos 4 pantallas que consisten en:
 - Bienvenida.
+
+
 ![Welcome](../images/Welcome.png)
 
 - Login.
+
+
 ![Login](../images/Login.png)
 
 - En caso que el usuario haya olvidado su contraseña.
+
+
 ![ForgotPassword](../images/ForgotPassword.png)
 
 - Pantalla principal con datos relevantes.
+
+
 ![Dashboard](../images/Dashboard.png)
 
 
