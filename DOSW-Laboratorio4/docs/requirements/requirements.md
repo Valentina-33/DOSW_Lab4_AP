@@ -105,5 +105,37 @@ d. ¿Existe algún requerimiento que no debería realizarse?
 
 Los requerimientos planteados son pertinentes e importantes para una funcionalidad práctica y profesional del sistema de Bankify. 
 
+#
+## 4. Mockup
+
+Seleccionamos el requerimiento funcional que consiste en el registro de credenciales de los usuarios. 
+
+Construimos 4 pantallas que consisten en:
+- Bienvenida.
+
+
+![Welcome](../images/Welcome.png)
+
+- Login.
+
+
+![Login](../images/Login.png)
+
+- En caso que el usuario haya olvidado su contraseña.
+
+
+![ForgotPassword](../images/ForgotPassword.png)
+
+- Pantalla principal con datos relevantes.
+
+
+![Dashboard](../images/Dashboard.png)
+
+
+Aquí adjuntamos el link:
+[Mockup Interactivo](https://www.figma.com/make/nfVEsBDJWucw5Ix8uVTZMR/Pantallas-de-inicio-de-sesi%C3%B3n?fullscreen=1&t=mWrIOnoZHWkB6keF-1).
+
 
 ----
+
+
