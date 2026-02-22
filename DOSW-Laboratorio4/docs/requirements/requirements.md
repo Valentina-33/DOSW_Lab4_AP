@@ -40,7 +40,7 @@ Nota: diagramas realizados en PlantUML.
 | **Precondiciones** | *El usuario debe estar previamente registrado en el sistema y tener un rol asignado para el manejo de permisos (cliente, asesor, supervisor o gerente financiero).* |
 | **Actor** | *Usuario (Cliente, Asesor, Supervisor, Gerente Financiero)* |
 | **Flujo principal** | 1. El actor ingresa su usuario y contraseña. <br>2. El sistema valida las credenciales. <br>3. El sistema permite el acceso según el rol asignado. |
-| **Diagrama de caso de uso** | *Imagen RF-01 disponible en carpeta /uml* |
+| **Diagrama de caso de uso** | *Imagen RF-01 disponible en carpeta /uml*  ![RF-01](../uml/RF-1.jpeg)|
 | **Poscondiciones** | *Se espera como resultado que el usuario acceda al sistema con permisos dependiendo del rol.* |
 
 
@@ -54,7 +54,7 @@ Nota: diagramas realizados en PlantUML.
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener al usuario autenticado y tener el rol de supervisor autorizado para gestionar clientes.* |
 | **Actor** | *Supervisor* |
 | **Flujo principal** | 1. El supervisor selecciona la opción de gestión de clientes. <br>2. El sistema muestra las opciones de crear, activar, inactivar o actualizar cliente. <br>3. El supervisor realiza la acción seleccionada. <br>4. El sistema valida la información y guarda los cambios. |
-| **Diagrama de caso de uso** | *Imagen RF-02 disponible en carpeta /uml*|
+| **Diagrama de caso de uso** | *Imagen RF-02 disponible en carpeta /uml* ![RF-02](../uml/RF-2.jpeg) |
 | **Poscondiciones** | *Se espera como resultado que la información del cliente queda actualizada en el sistema según la acción realizada.* |
 
 ### 2.3 Requerimiento Funcional 3
@@ -67,7 +67,7 @@ Nota: diagramas realizados en PlantUML.
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente al usuario autenticado y tener el rol correspondiente (asesor o cliente por ejemplo).* |
 | **Actor** | *Asesor, Cliente* |
 | **Flujo principal** | 1. El actor accede al módulo de gestión de cuentas. <br>2. El sistema muestra las opciones disponibles según el rol. <br>3. El actor selecciona la acción (crear, activar, inactivar o actualizar). <br>4. El sistema valida las reglas de negocio (formato de cuenta, banco registrado, etc.). <br>5. El sistema guarda los cambios. |
-| **Diagrama de caso de uso** | *Imagen RF-03 disponible en carpeta /uml*|
+| **Diagrama de caso de uso** | *Imagen RF-03 disponible en carpeta /uml* ![RF-03](../uml/RF-3.jpeg)|
 | **Poscondiciones** | *Se espera como resultad que la cuenta bancaria queda registrada o actualizada correctamente según las reglas del negocio.* |
 
 ## 3. Preguntas
